@@ -10,6 +10,7 @@ It differs in the following ways:
   - Red: "Important"
   - Green: "Further Research"
 - Custom CSS for hiding Obsidian comments in Papers (`hide-comments.css`)
+- Hot Key for importing Notes: `CMD+ü`
 
 ## Folder Structure
 
