@@ -1,0 +1,22 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 85,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Literature Note",
+      "outputPathTemplate": "Papers/{{citekey}}.md",
+      "imageOutputPathTemplate": "Papers/Assets/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Templates/Paper Template.md",
+      "cslStyle": "ieee"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "last-imported-note",
+  "shouldConcat": false
+}
