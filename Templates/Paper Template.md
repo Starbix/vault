@@ -3,7 +3,7 @@ aliases:
 - "{%- if creators -%}{{creators[0].lastName or creators[0].name }}{%- if creators|length == 2 %} & {{creators[1].lastName or creators[1].name}}{% endif -%}{%- if creators|length > 2 %} et al.{% endif -%}{%- endif -%}{%- if date %} ({{date | format("YYYY")}}){% endif -%} {%- if shortTitle %} {{shortTitle | safe}} {%- else %} {{title | safe}} {%- endif -%}"
 - "{{title | replace('"', "'")}}"
 year: {{date | format("YYYY")}}
-author: [{%- for c in creators -%}"[[People/{{c.firstName}} {{c.lastName}}|{{c.firstName}} {{c.lastName}}]]"{%- if not loop.last %}, {% endif -%}{%- endfor -%}]
+author: [{%- for c in creators -%}"[[People/{{c.firstName | replace('"', "'")}} {{c.lastName | replace('"', "'")}}|{{c.firstName | replace('"', "'")}} {{c.lastName | replace('"', "'")}}]]"{%- if not loop.last %}, {% endif -%}{%- endfor -%}]
 citekey: {{citekey}}
 {% if not tp.frontmatter.project %}project: {% endif %}
 {% if not tp.frontmatter.hasTopic %}hasTopic: []{% endif %}
@@ -18,7 +18,6 @@ zoteroUri: {{desktopURI}}
 {%- endif %}
 
 `BUTTON[update-litnote]`
-
 {% persist "notes" -%}
 {% if isFirstImport %}
 ## Key takeaways
