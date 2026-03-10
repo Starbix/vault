@@ -27,6 +27,11 @@
       "folder": "Privat/Rezepte",
       "tag": "#recipe",
       "pattern": ""
+    },
+    {
+      "folder": "Institutions",
+      "tag": "#institution",
+      "pattern": ""
     }
   ],
   "use_regex_to_check_for_excluded_folder": false,

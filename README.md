@@ -15,6 +15,7 @@ It differs in the following ways:
 ## Folder Structure
 
 - **Concepts/**
+- **Institutions/**
 - **Papers/**
 - **People/**
 - **Privat/**

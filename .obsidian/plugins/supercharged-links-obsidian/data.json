@@ -94,6 +94,18 @@
       "selectAppend": false,
       "selectPrepend": true,
       "selectBackground": false
+    },
+    {
+      "type": "tag",
+      "name": "",
+      "value": "institution",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "4b9d-d3ff",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
     }
   ]
 }

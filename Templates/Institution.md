@@ -1,11 +1,10 @@
 ---
-aliases: 
+aliases:
 partOf:
+Created: <% tp.file.include("[[templates/timestamp note]]") %>
 ---
 
 
---- 
-#institution 
-partOf:: 
-<% tp.file.include("[[templates/timestamp note]]") %>
 
+--- 
+#institution
